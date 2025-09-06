@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/quizzes")
+@RequestMapping("/api/quizzes")
 public class QuizzesController {
 
     private final QuizzesRepository repo;
